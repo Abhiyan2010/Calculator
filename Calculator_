@@ -1,0 +1,71 @@
+static void Main(string[] args)
+        {
+            // Print "Welcome to the calculator!"
+
+ 
+
+            // While this is true
+            {
+                // Print "Enter the first number"
+                // Store the input from the user in a string variable named "input1"
+                if (!double.TryParse(input1, out double number1))
+                {
+                    Console.WriteLine("Invalid input. Please enter a valid number.");
+                    continue;
+                }
+
+ 
+
+                // Print "Enter the second number"
+                // Store the input from the user in a string variable named "input2"
+                if (!double.TryParse(input2, out double number2))
+                {
+                    Console.WriteLine("Invalid input. Please enter a valid number.");
+                    continue;
+                }
+
+ 
+
+                // Print "Enter the operation (+, -, *, /): "
+                // Store the input from the user in a string variable. This will be the operator.
+
+ 
+
+                // Store the result of the calculation in a variable type double (decimals)
+
+ 
+
+                // Perform the calculation based on the chosen operation
+                // if the user chooses '+' as their operator
+                {
+                    // the result is the addition of number1 and number2
+                }
+                // else if the user chooses '-' as their operator
+                {
+                    // the result is the subtraction of number1 and number2
+                }
+                // else if the user chooses '*' as their operator
+                {
+                    // the result is the multiplication of number1 and number2
+                }
+                // else if the user chooses '/' as their operator
+                {
+                    // if the number2 is 0
+                    {
+                        // Print "Cannot divide by zero"
+                        continue;
+                    }
+                    // the result is the division of number1 and number2
+                }
+                // else 
+                {
+                    // Print "Invalid operation. Please enter +, -, *, or /."
+                    continue;
+                }
+
+ 
+
+                Console.WriteLine($"Result: {result}");
+
+        }
+    }
